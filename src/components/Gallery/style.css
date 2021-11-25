@@ -1,0 +1,34 @@
+.masonry-gallery {
+  margin: 0 !important;
+}
+
+.card {
+  overflow: hidden;
+  border: 1px solid #f05454;
+}
+.card:hover .card-content {
+  transform: translate(0, 0);
+}
+.card:hover .card-content > .card-title {
+  opacity: 1;
+}
+
+.card-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: translate(0px, 100%);
+  transition: 0.2s;
+  padding: 10px;
+}
+.card-title {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  opacity: 0;
+}

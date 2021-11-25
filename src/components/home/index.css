@@ -1,0 +1,58 @@
+.home {
+  /* background-color: var(--custom-color-one); */
+  background-image: linear-gradient(to bottom right, #30475e, #222831);
+}
+
+.home .content-box {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.home .image {
+  padding: 25px 0;
+}
+
+.title {
+  font-size: 80px;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+  letter-spacing: -1px;
+  margin-top: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: var(--custom-color-two);
+  visibility: visible;
+  animation-delay: 1s;
+  animation-name: fadeInUp;
+}
+
+@media screen and (max-width: 991px) {
+  .title {
+    font-size: 50px;
+  }
+}
+.description {
+  font-size: 18px;
+  line-height: 1.7em;
+  margin-top: 0;
+  color: var(--custom-primary);
+  font-weight: 400;
+  font-style: oblique;
+  margin-bottom: 20px;
+  visibility: visible;
+  animation-delay: 1s;
+  animation-name: fadeInUp;
+}
+.text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+}

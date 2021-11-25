@@ -1,0 +1,28 @@
+.navbar-app {
+  background-color: var(--custom-secondary) !important;
+}
+.navbar-app .navbar-brand {
+  color: var(--custom-color-two) !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+.navbar-app .navbar-nav > a {
+  font-size: 18px;
+  padding: 7px 15px !important;
+  color: var(--custom-primary);
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-app .navbar-collapse {
+    border-top: 1px solid var(--custom-primary);
+    margin-top: 5px;
+  }
+  .navbar-app button.navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-app .navbar-nav > a {
+    text-align: center;
+  }
+}

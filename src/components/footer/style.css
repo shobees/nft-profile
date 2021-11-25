@@ -1,0 +1,29 @@
+.footer {
+  padding: 25px;
+  background-color: var(--custom-color-one);
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-content .copyrights p {
+  color: var(--custom-primary);
+  font-size: 16px;
+}
+
+.footer-content .icons a {
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-content .icons .facebook {
+  color: #4267b2;
+}
+.footer-content .icons .twitter {
+  color: #00acee;
+}
+.footer-content .icons .linkedin {
+  color: #0e76a8;
+}

@@ -1,0 +1,6 @@
+.section-title-bar {
+  padding: 20px 0;
+}
+.section-title-bar h1 {
+  color: var(--custom-primary) !important;
+}

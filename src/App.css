@@ -1,0 +1,7 @@
+#sports,
+#women,
+#pop-culture,
+#gallery {
+  background-color: var(--custom-secondary);
+  padding: 50px 0;
+}

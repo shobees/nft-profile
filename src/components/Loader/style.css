@@ -1,0 +1,13 @@
+.custom-loader {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  background-color: var(--custom-color-one);
+}
+
+.custom-loader img {
+  border-radius: 50px;
+}

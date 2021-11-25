@@ -1,0 +1,26 @@
+.gallery-header {
+  padding: 0px 0 50px;
+}
+.gallery-header .menu {
+  border: 0;
+}
+
+.gallery-header button.item {
+  border: none;
+  background: var(--custom-primary) !important;
+  text-transform: capitalize !important;
+  font-size: 16px;
+  color: var(--custom-secondary);
+  font-family: "Roboto", sans-serif;
+}
+.gallery-header button.item:focus-visible {
+  outline: none;
+}
+.gallery-header button:last-child {
+  border-radius: 0 0.28571429rem 0.28571429rem 0;
+}
+
+.gallery-header button.active {
+  background-color: var(--custom-color-two) !important;
+  color: var(--custom-primary) !important;
+}
